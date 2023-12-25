@@ -80,6 +80,7 @@ select {
     font-style: 1rem;
     width: auto;
     cursor: pointer;
+    background-color:#fff;
 }
 
 .msg {
