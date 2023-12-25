@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFFFB3;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vw;
+}
+
+.copy {
+    margin-top: 4rem;
+    color: #008DD5;
+}
+
+h2 {
+    color: #008DD5;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+input,
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-cntr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.select-cntr img {
+    max-width: 2rem;
+}
+
+i {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+select {
+    font-style: 1rem;
+    width: auto;
+    cursor: pointer;
+}
+
+.msg {
+    margin: 2rem 0;
+}
+
+form button {
+    height: 3rem;
+    background-color: #008DD5;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 60vw;
+    }
+
+    .select-cntr {
+        padding: 0.1rem;
+    }
+
+    .copy {
+        padding-top: 4rem;
+        font-size: 0.7rem;
+    }
+}
